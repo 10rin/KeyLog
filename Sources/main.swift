@@ -212,7 +212,7 @@ struct ContentView: View {
 
 // --- 4. アプリケーションの起動設定 ---
 @main
-struct KeySoundApp: App {
+struct KeyLog: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

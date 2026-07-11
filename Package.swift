@@ -2,13 +2,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "KeySoundApp",
+    name: "KeyLog",
     platforms: [
         .macOS(.v14) // SwiftUIを使うためにmacOSバージョンを指定
     ],
     targets: [
         .executableTarget(
-            name: "KeySoundApp",
+            name: "KeyLog",
             dependencies: [])
     ]
 )
